@@ -7,10 +7,10 @@ snap install spotify
 snap install discord
 snap install slack --classic
 snap install sublime-text --classic
+snap install code --classic
 
 wget -c https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.4.1106-amd64.deb
 wget -c https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-wget -c https://code.visualstudio.com/docs/?dv=linux64_deb
 
 anaconda_version=$(curl -s https://repo.anaconda.com/archive/ | grep -e 'Anaconda3-2021.[0-2][0-9]-Linux-x86' | tail -n 1 | cut -d "\"" -f 2)
 
