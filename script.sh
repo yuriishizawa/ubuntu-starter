@@ -6,6 +6,7 @@ apt install arduino bleachbit qgis curl wget htop python3-dev python3-pip fritzi
 snap install spotify
 snap install discord
 snap install slack --classic
+snap install sublime-text --classic
 
 wget -c https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.4.1106-amd64.deb
 wget -c https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
