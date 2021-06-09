@@ -2,7 +2,7 @@
 
 apt update && apt upgrade -y
 
-apt install arduino bleachbit qgis curl wget htop python3-dev python3-pip fritzing texstudio texlive gimp texlive-full obs-studio kdenlive texlive-lang-portuguese texlive-latex-extra steam vlc r-base telegram-desktop git -y
+apt install arduino bleachbit qgis curl wget htop python3-dev python3-pip fritzing texstudio texlive gimp texlive-full obs-studio kdenlive texlive-lang-portuguese texlive-latex-extra vlc r-base telegram-desktop git -y
 snap install spotify
 snap install discord
 snap install slack --classic
