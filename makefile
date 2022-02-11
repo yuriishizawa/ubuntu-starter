@@ -8,11 +8,11 @@ install:
 install_nvim:
 	nvm install --lts && apt-get install vim nvim -y
 
-convert_vim_config:
-	cp vimrc .vimrc
+copy_vim_config:
+	cp vimrc ~/.vimrc
 
 copy_nvim:
-	cp .vimrc .config/nvim/init.vim
+	cp vimrc .config/nvim/init.vim
 
 install_vim_plug:
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
