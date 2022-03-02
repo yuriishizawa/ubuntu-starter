@@ -1,7 +1,7 @@
 auto_commit:
 	git add . && git commit -m "Update" && git push
 
-install:
+install_vim:
 	apt-get install python3-pip -y && pip install pynvim && \
 		curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
