@@ -1,0 +1,17 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "editor.formatOnPaste": true,
+    "code-runner.runInTerminal": true,
+
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+}
