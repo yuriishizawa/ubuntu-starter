@@ -1,18 +1,23 @@
 {
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "editor.formatOnPaste": true,
+    "code-runner.runInTerminal": true,
+
     "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501,E712,W503,E266"
+    ],
     "python.linting.mypyEnabled": true,
-    "python.formatting.provider": "black",
-    "python.pythonPath": "venv/bin/python",
-    "code-runner.executorMap": {
-        "python": "venv/bin/python",
-    },
-    "[python]": {
-        "editor.formatOnSave": false,
-        "editor.formatOnPaste": false
-    },
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "80"
-    ]
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "warning"
+    }
 }
