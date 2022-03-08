@@ -13,5 +13,8 @@
     "code-runner.runInTerminal": true,
 
     "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501,E712,W503,E266"
+    ],
     "python.linting.mypyEnabled": true,
 }
