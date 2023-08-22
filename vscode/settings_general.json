@@ -1,20 +1,22 @@
 {
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        
     },
+    "workbench.colorCustomizations": {},
+    "workbench.colorTheme": "Dracula",
+    "editor.minimap.enabled": false,
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "tabnine.experimentalAutoImports": true,
-    "editor.formatOnPaste": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "githubPullRequests.pullBranch": "never",
+    "ltex.additionalRules.motherTongue": "pt-BR",
+    "explorer.compactFolders": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "code-runner.runInTerminal": true,
-
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [
-        "--ignore=E501,E712,W503,E266"
-    ],
-    "python.linting.mypyEnabled": true,
 }
