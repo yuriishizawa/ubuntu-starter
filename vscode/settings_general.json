@@ -19,4 +19,8 @@
         "*.ipynb": "jupyter-notebook"
     },
     "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "clear && python3 -u",
+    }
 }
