@@ -1,0 +1,74 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "isort.args": ["--profile","black"],
+    "workbench.settings.editor": "json",
+    "gremlins.showInProblemPane": true,
+    "python.languageServer": "Pylance",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "workbench.colorCustomizations": {},
+    "workbench.colorTheme": "Dracula",
+    "editor.suggestSelection": "first",
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+      },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.associations": {
+        ".github/CODEOWNERS": "plaintext"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "githubPullRequests.pullBranch": "never",
+    "ltex.additionalRules.motherTongue": "pt-BR",
+    "ltex.language": "pt-BR",
+    "explorer.compactFolders": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "clear && python3 -u"
+    },
+    "notebook.lineNumbers": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "autoDocstring.docstringFormat": "numpy",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.ai.experimental.generateCommitMessage.enabled": false
+}

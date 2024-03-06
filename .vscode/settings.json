@@ -1,0 +1,47 @@
+{
+    "autoDocstring.docstringFormat": "numpy",
+    "diffEditor.renderSideBySide": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.guides.bracketPairs": true,
+    "editor.rulers": [88],
+    "editor.stickyScroll.enabled": true,
+    "editor.suggestSelection": "first",
+    "gremlins.showInProblemPane": true,
+    "python.languageServer": "Pylance",
+    "redhat.telemetry.enabled": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "workbench.settings.editor": "json",
+    "isort.args": ["--profile","black"],
+    "[markdown]": {
+      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[python]": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true,
+      "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "terminal.integrated.env.windows": {
+      "PYTHONPATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.linux": {
+      "PYTHONPATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.osx": {
+      "PYTHONPATH": "${workspaceFolder}"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[toml]": {
+      "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.associations": {
+      ".github/CODEOWNERS": "plaintext"
+    }
+  }
