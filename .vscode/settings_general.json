@@ -70,5 +70,11 @@
     "files.trimTrailingWhitespace": true,
     "autoDocstring.docstringFormat": "numpy",
     "diffEditor.ignoreTrimWhitespace": false,
-    "gitlens.ai.experimental.generateCommitMessage.enabled": false
+    "gitlens.ai.experimental.generateCommitMessage.enabled": false,
+    "markdown.marp.themes": [
+        "https://raw.githubusercontent.com/rnd195/my-marp-themes/live/beam.css",
+        "https://raw.githubusercontent.com/rnd195/my-marp-themes/live/gradient.css",
+        "https://raw.githubusercontent.com/favourhong/Awesome-Marp/main/themes/am_template.scss",
+        "https://raw.githubusercontent.com/favourhong/Awesome-Marp/main/themes/am_dark.scss",
+    ],
 }
