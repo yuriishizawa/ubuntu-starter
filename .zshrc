@@ -6,6 +6,11 @@ plugins=(
   zsh-syntax-highlighting
 )
 
+# fix not showing anything
+SPACESHIP_PROMPT_ASYNC=false
+# absolute path
+SPACESHIP_DIR_TRUNC_REPO=false
+
 # Spaceship configs
 SPACESHIP_PROMPT_ORDER=(
   venv # Virtualenv section
