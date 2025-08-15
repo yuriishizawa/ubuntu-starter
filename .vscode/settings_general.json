@@ -7,7 +7,7 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": "never",
             "source.fixAll": "explicit"
-        },
+        }
     },
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -112,6 +112,7 @@
         }
     },
     "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "github.copilot.editor.enableAutoCompletions": true,
     "redhat.telemetry.enabled": false,
     "markdown.marp.themes": [
