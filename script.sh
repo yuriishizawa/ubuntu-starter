@@ -3,10 +3,13 @@
 apt update && apt upgrade -y
 
 # aplicativos básicos
-apt install curl git wget lm-sensors htop python3-dev python3-pip python3-tk tk-dev libsqlite3-dev texstudio texlive gimp texlive-full obs-studio texlive-lang-portuguese texlive-latex-extra vlc r-base -y
+apt install curl git wget lm-sensors htop python3-dev python3-pip python3-tk tk-dev libsqlite3-dev gimp obs-studio vlc r-base -y
 snap install spotify
 snap install sublime-text --classic
 snap install code --classic
+
+# LaTeX
+# apt install texstudio texlive texlive-full texlive-lang-portuguese texlive-latex-extra
 
 # rstudio_version=$(curl -s https://posit.co/download/rstudio-desktop/ | grep -P 'rstudio-.*\.deb' -o | sort | tail -n 1)
 # wget -c https://download1.rstudio.org/desktop/bionic/amd64/$rstudio_version
@@ -22,17 +25,17 @@ snap install code --classic
 # extras
 apt install ubuntu-restricted-extras -y
 
-# poetry
-curl -sSL https://install.python-poetry.org | python3 -
-
 # docker
 apt install docker.io -y
 
 # docker-compose
 apt install docker-compose -y
 
-# pyenv
-curl https://pyenv.run | bash
+# poetry
+curl -sSL https://install.python-poetry.org | python3 -
+
+# uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # zsh
 apt install zsh -y
