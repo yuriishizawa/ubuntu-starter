@@ -16,3 +16,6 @@ apt install docker-compose -y
 
 # zsh
 apt install zsh -y
+
+# uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
